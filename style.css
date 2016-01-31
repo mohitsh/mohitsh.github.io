@@ -1,0 +1,18 @@
+ 
+body
+{
+    background:#800033;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#f2f2f2;
+    margin: 0 auto;
+    width:400px;
+    border: 2px ridge #660033;
+    padding: 0px 20px 20px 20px;
+}
+
+h1
+{
+  margin:0;
+  padding: 20px 0;
+  text-shadow: 2px 1px 1px #f2f2f2;
+}
