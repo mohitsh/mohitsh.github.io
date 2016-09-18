@@ -1,0 +1,12 @@
+title: Mohit Shukla
+email: mohitsh114@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  What, are you dense? Are you retarded or something? Who the hell do you think I am? I’m the Goddamn Batman.
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://example.com" # the base hostname & protocol for your site
+twitter_username: mohitshukla114
+github_username:  mohitsh
+
+# Build settings
+markdown: kramdown
+theme: minima

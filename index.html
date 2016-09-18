@@ -1,36 +1,23 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
-        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-        <link href="style.css" rel="stylesheet" type="text/css">
-        
-    </head>
-    <body>
-        
-        <h1>Welcome to Firefox! </h1>
-        <p>
-        At The Den we are a global community of  
-        <ul>
-        <li>thinkers</li>
-        <li>technologists </li>
-        <li>builders </li>
-        </ul>
-        </p>
-        <p id="quote"><h5>You either die hero or you live long enough to see yourself become the villain.<h5></p>
-        <p><a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a></p>
-        <button class="btn btn-default" type="submit">Change</button>
-        <script src="main.js"></script>
-    </body>
-        
-    
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
