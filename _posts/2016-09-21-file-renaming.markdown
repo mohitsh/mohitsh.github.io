@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "File Renaming"
-date:   2016-09-18 14:26:40 +0530
+date:   2015-09-11 14:26:40 +0530
 categories: jekyll update
 ---
 In almost all of the projects involving some kind of document handling/parsing, we get lots of files to deal with. 
