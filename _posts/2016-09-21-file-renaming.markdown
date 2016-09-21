@@ -1,62 +1,40 @@
 ---
 layout: post
-title:  "Renaming all the files"
+title:  "File Renaming"
 #date:   2016-09-18 14:26:40 +0530
 categories: jekyll update
 ---
-I have often heard people ranting about Python's speed limits. Being an interpreting language, it has its limits but the trade-off between friendliness and speed is worth it. 
-Being a Python enthusiast I tend to collect all the evidences I come across to support usability of Python. Today, while reading the book [Python for Finance][py4fin]  I found this neat example to support my case.
-The example below shows that use of (pre-compiled) libraries can help reduce processing time drastically. In first scenario a native Python list has been used to store elementsi followed by implementation of Numpy to store elements. Numpy array improves performance significantly. Use of Numpy brought the processing down to 15.4 seconds from 34 seconds which is less than half.  
-Wait! There is more, using numexpr can further improve the performance to 7.9 seconds while using only one thread. 
-Now using four threads can further bring the processing time down to 2.8 seconds. 
-So finally, it is down to almost 2.5 seconds  from 34 seconds. Hence, Python's speed isn't that bad once you know what tools to use.  
+In almost all of the projects involving some kind of document handling/parsing, we get lots of files to deal with. 
+Usually these files have cumbersome, non-uniform names, hence renaming. In case of limited number of files say 10-15
+it is okay to do this manually but when dealing with large number of files, manual labor is frustrating and not recommended.
+I wrote a python script some times back to do this job that I am going to mention below. Although, same thing can be done
+using shell script but I'll go with Python, simple because it's easier and usable for wide range of audience.
 
 {% highlight python linenos%}
-from math import *
-from time import time
-import numpy as np
-import numexpr as ne
+"""
+Assuming all the files are present inside a folder 
+and this script is present in the parent directory
+"""
+import os
+os.chdir('path_of_folder_containing_files')
+# change directory since all the files are present inside a folder
 
-loops = 25000000
-a = range(1, loops)
+def rename_files(list_of_files, new_names):
+  for i in range(len(list_of_files)):
+    os.rename(list_of_files[i], new_names[i])
 
-def f(x):
-  return 3*log(x) + cos(x)**2
+list_of_files = os.listdir('.')
+# a list of all file names
 
-s1 = time()
-result1 = [f(x) for x in a]
-e1 = time()
+new_names = []
+for i in range(len(list_of_files)):
+  new_names.append(''.join(['new_name',str(i+1),'.pdf']))
+# new file names
 
-t1 = e1 -s1
-print(t1)
-#=> prints: 34.30237698554993
+rename_files(list_of_files, new_names)
 
-a2 = np.arrange(1, loops)
-s2 = time()
-result2 = 3*np.log(a2) + np.cos(a)**2
-e2 = time()
-t2 = e2 - s2
-print(t2)
-#=> prints: 15.437289476394653 
+mod_names = os.listdir('.')
+for elem in mod_names:
+  print(elem)
 
-ne.set_num_threads(1)
-f = '3*log(a2) + cos(a2)**2'
-s3 = time()
-result3 = ne.evaluate(f)
-e3 = time()
-t3 = e3 - s3
-print(t3)
-#=> prints: 7.91935658454895
-
-ne.set_num_threads(4)
-f = '3*log(a2) + cos(a2)**2'
-s4 = time()
-result4 = ne.evaluate(f)
-e4 = time()
-t4 = e4 - s4
-print(t4)
-#=> prints: 2.794750928878784 
 {% endhighlight %}
-
-
-[py4fin]: http://shop.oreilly.com/product/0636920032441.do 

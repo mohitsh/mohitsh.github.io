@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Is Python that Slow ?"
-#date:   2016-09-18 14:26:40 +0530
+title:  "Is Python that slow ?"
+date:   2016-09-18 14:26:40 +0530
 categories: jekyll update
 ---
 I have often heard people ranting about Python's speed limits. Being an interpreting language, it has its limits but the trade-off between friendliness and speed is worth it. 
