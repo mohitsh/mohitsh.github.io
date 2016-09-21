@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "File Renaming"
-#date:   2016-09-18 14:26:40 +0530
+date:   2016-09-18 14:26:40 +0530
 categories: jekyll update
 ---
 In almost all of the projects involving some kind of document handling/parsing, we get lots of files to deal with. 
 Usually these files have cumbersome, non-uniform names, hence renaming. In case of limited number of files say 10-15
-it is okay to do this manually but when dealing with large number of files, manual labor is frustrating and not recommended.
-I wrote a python script some times back to do this job that I am going to mention below. Although, same thing can be done
-using shell script but I'll go with Python, simple because it's easier and usable for wide range of audience.
+it is okay to do this manually but when dealing with large number of files, manual labour is frustrating and not recommended.
+I wrote a python script some times for this job. Although, same thing can be done
+using shell script but I'll go with Python, simply because it's easier and usable for wide range of audience.
 
 {% highlight python linenos%}
 """
