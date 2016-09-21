@@ -9,6 +9,7 @@ On one fine weekend, I decided to combine Python and xkcd in my own way.
 I sat down and came up with this.
 They are two versions of the same code. All the requirements and details 
 are mentioned in the readme file.
-Once done, you'll fine all of xkcd on your local system.
+Once done, you'll fine all of xkcd on your local system.  
+
 [Code repository][https://github.com/mohitsh/xkcdDownload.git]
 
