@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Is Python that Slow ?"
+title:  "Renaming all the files"
 #date:   2016-09-18 14:26:40 +0530
 categories: jekyll update
 ---
