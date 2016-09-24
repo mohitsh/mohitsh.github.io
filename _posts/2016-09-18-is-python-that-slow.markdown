@@ -4,7 +4,7 @@ title:  "Is Python that slow ?"
 date:   2016-09-18 14:26:40 +0530
 categories: jekyll update
 ---
-I have often heard people ranting about Python's speed limits. Being an interpreting language, it has its limits but the trade-off between friendliness and speed is worth it. 
+I have often heard people ranting about Python's speed limits. Being a dynamically typed language which means in Python intepreter infers the type of an object at runtime (in Python everything is an object), it has its limits but the trade-off between friendliness and speed is worth it. 
 Being a Python enthusiast I tend to collect all the evidences I come across to support usability of Python. Today, while reading the book [Python for Finance][py4fin]  I found this neat example to support my case.
 The example below shows that use of (pre-compiled) libraries can help reduce processing time drastically. In first scenario a native Python list has been used to store elementsi followed by implementation of Numpy to store elements. Numpy array improves performance significantly. Use of Numpy brought the processing down to 15.4 seconds from 34 seconds which is less than half.  
 Wait! There is more, using numexpr can further improve the performance to 7.9 seconds while using only one thread. 
