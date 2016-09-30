@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Is Python that slow ?"
-date:   2016-09-18 14:26:40 +0530
+title:  "Pandas, Finance and Tesla"
+date:   2016-04-02 16:12:40 +0530
 categories: jekyll update
 ---
 A demonstration of Pandas' basic operations and its application to financial analysis using Tesla's stock prices.
+
 {% highlight python linenos%}
 import numpy as np
 import pandas as pd
@@ -73,5 +74,3 @@ df = df.join(pd.DataFrame([1,4,9,16,25],
 #e     5  name5   22            25
 
 {% endhighlight %}
-
-[py4fin]: http://shop.oreilly.com/product/0636920032441.do 
