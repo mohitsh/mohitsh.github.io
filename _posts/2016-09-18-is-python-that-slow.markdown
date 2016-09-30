@@ -58,5 +58,73 @@ print(t4)
 #=> prints: 2.794750928878784 
 {% endhighlight %}
 
+{% highlight python linenos%}
+from math import *
+import numpy as np
+import numexpr as ne
+from time import time
+
+def f(x):
+    return abs(cos(x)) ** 0.5 + sin(2 + 3*x)
+
+I = 5000000
+a_py = range(I)
+
+# using normal list
+
+def f1(a):
+    return [f(x) for x in a]
+
+
+s1 = time()
+res1 = f1(a_py)
+e1 = time()
+
+# using numpy
+a_np = np.arange(I)
+def f2(a):
+    return (np.abs(np.cos(a))**0.5 + np.sin(2 + 3 * (a)))
+
+s2 = time()
+res2 = f2(a_np)
+e2 = time()
+
+def f3(a):
+    ex = 'abs(cos(a)) ** 0.5 + sin(2 + 3 * a)'
+    ne.set_num_threads(1)
+    return ne.evaluate(ex)
+s3 = time()
+res3 = f3(a_np)
+e3 = time()
+
+def f4(a):
+    ex = 'abs(cos(a))**0.5 + sin(2 + 3*a)'
+    ne.set_num_threads(16)
+    return ne.evaluate(ex)
+
+s4 = time()
+res4 = f4(a_np)
+e4 = time()
+
+t1 = (e1 - s1)
+t2 = (e2 - s2)
+t3 = (e3 - s3)
+t4 = (e4 - s4)
+
+print('t1 -> ', t1)
+#=> prints: 7.383143186569214 
+print('t2 -> ', t2)
+#=> prints: 2.0517921447753906 
+print('t3 -> ', t3)
+#=> prints: 1.8002345561981201 
+print('t4 -> ', t4)
+#=> prints: 0.7142317295074463 
+print(t1/t4)
+#=> prints: 10.337181731846092 
+print(t2/t4)
+#=> prints: 2.8727261195611717
+print(t3/t4)
+#=> prints: 2.52051887619108
+{% endhighlight %}
 
 [py4fin]: http://shop.oreilly.com/product/0636920032441.do 
