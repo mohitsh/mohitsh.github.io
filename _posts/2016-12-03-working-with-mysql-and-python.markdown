@@ -1,4 +1,4 @@
---
+---
 layout: posts
 title:  "Mysql with Python"
 date:   2016-11-25 10:03:40 +0530
