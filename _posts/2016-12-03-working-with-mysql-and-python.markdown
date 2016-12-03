@@ -37,4 +37,5 @@ df = pd.read_sql_query(query, con=mydb)
 df.to_csv('result.csv')
 
 {% endhighlight %}
+
 [link1]: https://github.com/PyMySQL/PyMySQL/
