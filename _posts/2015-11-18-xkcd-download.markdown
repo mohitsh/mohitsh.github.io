@@ -2,7 +2,6 @@
 layout: post
 title:  "xkcd is great!"
 date:   2015-09-11 14:26:40 +0530
-categories: jekyll update
 ---
 On one fine weekend, I decided to combine Python and xkcd in my own way.
 (they are already pretty close. try `import python` in your python shell)

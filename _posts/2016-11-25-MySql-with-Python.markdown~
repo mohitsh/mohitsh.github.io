@@ -2,6 +2,7 @@
 layout: post
 title:  "File Renaming"
 date:   2015-09-11 14:26:40 +0530
+categories: jekyll update
 ---
 In almost all of the projects involving some kind of document handling/parsing, we get lots of files to deal with. 
 Usually these files have cumbersome, non-uniform names, hence renaming. In case of limited number of files say 10-15

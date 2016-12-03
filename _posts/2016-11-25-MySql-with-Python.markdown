@@ -3,8 +3,9 @@ layout: post
 title:  "MySql with Python"
 date:   2016-11-25 14:26:40 +0530
 ---
-Reauirements are: PyMySql(for connection and interaction with database), pandas(importing data to data frame for analysis purpose)
-Install PyMySql from PyMySql
+Reauirements are: PyMySql(for connection and interaction with database), pandas(importing data to data frame for analysis purpose  
+
+Install [PyMySql][link1] from PyMySql
 
 {% highlight python linenos%}
 import pymysql as mysql
@@ -33,3 +34,5 @@ df = pd.read_sql_query(query, con=mydb)
 df.to_csv('result.csv')
 
 {% endhighlight %}
+
+[link1]: https://github.com/PyMySQL/PyMySQL/

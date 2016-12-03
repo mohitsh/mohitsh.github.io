@@ -2,7 +2,6 @@
 layout: post
 title:  "Is Python that slow ?"
 date:   2016-09-18 14:26:40 +0530
-categories: jekyll update
 ---
 I have often heard people ranting about Python's speed limits. Being a dynamically typed language which means in Python intepreter infers the type of an object at runtime (in Python everything is an object), it has its limits but the trade-off between friendliness and speed is worth it. 
 Being a Python enthusiast I tend to collect all the evidences I come across to support usability of Python. Today, while reading the book [Python for Finance][py4fin]  I found this neat example to support my case.

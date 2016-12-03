@@ -2,7 +2,6 @@
 layout: post
 title:  "Pandas, Finance and Tesla"
 date:   2016-04-02 16:12:40 +0530
-categories: jekyll update
 ---
 A demonstration of Pandas' basic operations and its applications to financial analysis using Tesla's stock prices.
 

@@ -2,7 +2,6 @@
 layout: post
 title:  "Matplotlib for Plotting"
 date:   2015-02-02 14:26:40 +0530
-categories: jekyll update
 ---
 In python plotting is not that straight forward as compared to R or Matlab. 
 But given a fair share of time it can be easily understood. Python's plotting library Matplotlib makes things pretty easy to use.
