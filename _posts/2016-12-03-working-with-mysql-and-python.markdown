@@ -10,7 +10,6 @@ Install PyMySql from [PyMySql][link1]
 
 
 {% highlight python linenos%}
-
 import pymysql as mysql
 import pandas as pd
 
@@ -35,7 +34,6 @@ result = cur.fetchall()
 # write the result in a pandas dataframe
 df = pd.read_sql_query(query, con=mydb)
 df.to_csv('result.csv')
-
 {% endhighlight %}
 
 [link1]: https://github.com/PyMySQL/PyMySQL/
