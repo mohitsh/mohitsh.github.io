@@ -3,9 +3,9 @@ layout: post
 title:  "MySql with Python"
 date:   2016-11-25 14:26:40 +0530
 ---
-Reauirements are: PyMySql(for connection and interaction with database), pandas(importing data to data frame for analysis purpose  
+Requirements are: PyMySql(for connection and interaction with database), pandas(importing data to data frame for analysis purpose) 
 
-Install [PyMySql][link1] from PyMySql
+Install [PyMySql][link1]
 
 {% highlight python linenos%}
 import pymysql as mysql
