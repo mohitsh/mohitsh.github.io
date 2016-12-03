@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "MySql with Python"
-date:   2015-11-11 14:26:40 +0530
-categories: jekyll update
+date:   2016-11-25 14:26:40 +0530
 ---
 Reauirements are: PyMySql(for connection and interaction with database), pandas(importing data to data frame for analysis purpose)
 Install PyMySql from PyMySql
