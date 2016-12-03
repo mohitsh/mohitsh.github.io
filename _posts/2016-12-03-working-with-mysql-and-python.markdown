@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 Reauirements are: PyMySql(for connection and interaction with database), pandas(importing data to data frame for analysis purpose)
 
-Install PyMySql from [PyMySql][link1]
+Install PyMySql from PyMySql
 
 
 {% highlight python linenos%}
@@ -34,6 +34,5 @@ result = cur.fetchall()
 # write the result in a pandas dataframe
 df = pd.read_sql_query(query, con=mydb)
 df.to_csv('result.csv')
-{% endhighlight %}
 
-[link1]: https://github.com/PyMySQL/PyMySQL/
+{% endhighlight %}
