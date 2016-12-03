@@ -4,10 +4,10 @@ title:  "XML to SQL"
 date:   2016-12-03 12:26:40 +0530
 ---
 
-Create a SQL table based on your XML data.
+Create an SQL table based on your XML data.
 Afterwards import entire XML data to SQL table.
 
-Assuming the XML data has following entries in a row:
+Assuming that the XML data has following entries in a row:
 
 * Id
 * Reputation
