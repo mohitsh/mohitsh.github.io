@@ -5,7 +5,7 @@ date:   2016-04-02 16:12:40 +0530
 ---
 A demonstration of Pandas' basic operations and its applications to financial analysis using Tesla's stock prices.
 
-{% highlight python linenos%}
+```python
 import numpy as np
 import pandas as pd
 import mtplotlib as mlp
@@ -161,10 +161,9 @@ TESLA['Mov_Vol'] = pd.rolling_std(TESLA['Return'], window=252)*math.sqrt(252)
 # as market goes up volatitiy comes down and vice-versa
 TESLA[['Close','Mov_Vol','Return']].plot(ax=ax, subplots=True, style='b', figsize=(8.5))
 plt.show()
+```
 
-
-{% endhighlight %}
-![1D Plot]({{ site.url }}/assets/df_plot_1.png)
-![1D Plot]({{ site.url }}/assets/df_plot_2.png)
-![1D Plot]({{ site.url }}/assets/df_plot_3.png)
-![1D Plot]({{ site.url }}/assets/df_plot_4.png)
+![1D Plot]({{ site.url }}/assets/images/df_plot_1.png)
+![1D Plot]({{ site.url }}/assets/images/df_plot_2.png)
+![1D Plot]({{ site.url }}/assets/images/df_plot_3.png)
+![1D Plot]({{ site.url }}/assets/images/df_plot_4.png)

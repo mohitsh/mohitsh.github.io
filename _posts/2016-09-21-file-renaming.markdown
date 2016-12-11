@@ -9,7 +9,7 @@ it is okay to do this manually but when dealing with large number of files, manu
 I wrote a python script some times for this job. Although, same thing can be done
 using shell script but I'll go with Python, simply because it's easier and usable for wide range of audience.
 
-{% highlight python linenos%}
+```python
 """
 Assuming all the files are present inside a folder 
 and this script is present in the parent directory
@@ -35,5 +35,4 @@ rename_files(list_of_files, new_names)
 mod_names = os.listdir('.')
 for elem in mod_names:
   print(elem)
-
-{% endhighlight %}
+```

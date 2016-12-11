@@ -9,7 +9,7 @@ Most of the issues people face while using Matplotlib are related to library imp
 
 #### One Dimensional Plotting  
 
-{% highlight python linenos%}
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 import pylab
@@ -32,12 +32,13 @@ plt.ylabel('y-values')
 plt.title('Smaple 1-D Plot')
 # otherwise your plot wouldn't show after script is run
 pylab.show()
-{% endhighlight %}
+```
+
 ![1D Plot]({{ site.url }}/assets/figure_1.png)
 
 #### Two Dimensional Plotting  
 
-{% highlight python linenos%}
+```python
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -65,12 +66,13 @@ plt.ylabel('y-values')
 # provide y-label
 plt.title('Sample 2-D Plot')
 # provide plot title
-{% endhighlight %}
+```
+
 ![2D Plot]({{ site.url }}/assets/figure_2.png)
 
 #### 2-D plot with 2 y-axis of different scale 
 
-{% highlight python linenos%}
+```python
 np.random.seed(3030)
 y = np.random.standard_normal((50,2))
 y[:,0] = y[:,0]*10
@@ -89,12 +91,12 @@ plt.plot(y[:,1], 'ro')
 #plt.legend(loc=8)
 plt.ylabel('2nd Column values')
 # provide plot title
-{% endhighlight %}
+```
 ![2D plot with 2 y-axis]({{ site.url }}/assets/figure_3.png)
 
 #### 2 Separate Subplots
 
-{% highlight python linenos%}
+```python
 np.random.seed(3030)
 y = np.random.standard_normal((50,2)) #.cumsum(axis=0)
 y[:,0] = y[:,0]*10
@@ -116,14 +118,13 @@ plt.grid(True)
 plt.legend(loc=0)
 plt.xlabel('x-values')
 plt.ylabel('2nd Column Values')
+```
 
-
-{% endhighlight %}
 ![Two separate subplots]({{ site.url }}/assets/figure_4.png)
 
 #### Subplots of Different Type
 
-{% highlight python linenos%}
+```python
 np.random.seed(3030)
 y = np.random.standard_normal((50,2)) #.cumsum(axis=0)
 y[:,0] = y[:,0]*10
@@ -145,8 +146,7 @@ plt.legend(loc=0)
 plt.xlabel('x-values')
 plt.ylabel('2nd Column Values')
 plt.title('Second Plot (Barchart)')
+```
 
-{% endhighlight %}
-
-![Two separate subplots]({{ site.url }}/assets/figure_5.png)
+![Two separate subplots]({{ site.url }}/assets/images/figure_5.png)
 

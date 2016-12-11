@@ -1,12 +1,78 @@
-title: Mohit Shukla
-email: mohitsh114@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  What, are you dense? Are you retarded or something? Who the hell do you think I am? I’m the Goddamn Batman.
-baseurl: "" # the subpath of your site, e.g. /blog
-#url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: mohitshukla114
-github_username:  mohitsh
+name:               "Mohit Shukla"
 
-# Build settings
-markdown: kramdown
-theme: minima
+author:
+  name:             mohitsh
+  facebook:         mohit.shukla.969
+  twitter:          mohitshukla114
+  github:           mohitsh
+  linkedin:         mohit-shukla-171a2556
+  medium:           #
+  tumblr:           #
+  email:            mohitsh114@gmail.com
+
+# Google-analytics
+google-analytics:
+  id:               ""
+
+# Disqus
+disqus:
+  id:               "mohitsh.disqus.com"
+
+# URL
+#url:                "https://mohitsh.github.io" # the base hostname & protocol for your site
+url:                "http://localhost:4000" # use this url when develop
+baseurl:            "" # the subpath of your site, e.g. /blog
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Kolkata
+permalink:          /:year-:month-:day/:title/
+
+# Pagination
+paginate:           5
+paginate_path:      /page:num/
+
+# Markdown
+markdown:           kramdown
+kramdown:
+  imput:            GFM
+
+# Navigation
+nav:
+  - name:           "About"
+    url:            "/about"
+  - name:           "Archive"
+    url:            "/archive"
+  - name:           "Tags"
+    url:            "/tags"
+  - name:           "Github"
+    url:            "https://github.com/mohitsh"
+
+
+
+# Sass
+sass:
+  sass_dir:         _sass
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+exclude:            [vendor]
