@@ -38,7 +38,7 @@ plt.title('Smaple 1-D Plot')
 pylab.show()
 ```
 
-![1D Plot]({{ site.url }}/assets/figure_1.png)
+![1D Plot]({{ site.url }}/assets/images/figure_1.png)
 
 #### Two Dimensional Plotting  
 
@@ -72,7 +72,7 @@ plt.title('Sample 2-D Plot')
 # provide plot title
 ```
 
-![2D Plot]({{ site.url }}/assets/figure_2.png)
+![2D Plot]({{ site.url }}/assets/images/figure_2.png)
 
 #### 2-D plot with 2 y-axis of different scale 
 
@@ -96,7 +96,7 @@ plt.plot(y[:,1], 'ro')
 plt.ylabel('2nd Column values')
 # provide plot title
 ```
-![2D plot with 2 y-axis]({{ site.url }}/assets/figure_3.png)
+![2D plot with 2 y-axis]({{ site.url }}/assets/images/figure_3.png)
 
 #### 2 Separate Subplots
 
@@ -124,7 +124,7 @@ plt.xlabel('x-values')
 plt.ylabel('2nd Column Values')
 ```
 
-![Two separate subplots]({{ site.url }}/assets/figure_4.png)
+![Two separate subplots]({{ site.url }}/assets/images/figure_4.png)
 
 #### Subplots of Different Type
 
