@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Is Python that slow ?"
-description: "A demonstration of python code execution time improvement using available modules
+description: "A demonstration of python code execution time improvement using available modules"
 date:   2016-09-18 14:26:40 +0530
 tags: [Python, execution time, numpy, numexpr, threads]
 comments: true
