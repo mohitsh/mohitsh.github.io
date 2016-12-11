@@ -12,12 +12,10 @@ In mathematics  operators OR, AND, XOR and NOT are used to combine propositions.
 These combinations of propositions can sometimes provide pretty interesting counter intuitive results.
 To understand that first we need to understand the building blocks.
 
+
 * Propositions are basically statements that can either true or false.
-
 * To establish the truth about proposition a proof is required. 
-
 * In order to do that some basic axioms are assumed. 
-
 * Axioms are propositions that are simply accepted, for example there is only one straight line between two points.
 
 From those assumed axioms, one after another logical deductions are derived which finally settles at the proposition we initially tried to prove.
