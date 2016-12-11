@@ -1,7 +1,11 @@
 ---
 layout: post
 title:  "Is Python that slow ?"
+description: "A demonstration of python code execution time improvement using available modules
 date:   2016-09-18 14:26:40 +0530
+tags: [Python, execution time, numpy, numexpr, threads]
+comments: true
+share: true
 ---
 I have often heard people ranting about Python's speed limits. Being a dynamically typed language which means in Python intepreter infers the type of an object at runtime (in Python everything is an object), it has its limits but the trade-off between friendliness and speed is worth it. 
 Being a Python enthusiast I tend to collect all the evidences I come across to support usability of Python. Today, while reading the book [Python for Finance][py4fin]  I found this neat example to support my case.
@@ -10,7 +14,7 @@ Wait! There is more, using numexpr can further improve the performance to 7.9 se
 Now using four threads can further bring the processing time down to 2.8 seconds. 
 So finally, it is down to almost 2.5 seconds  from 34 seconds. Hence, Python's speed isn't that bad once you know what tools to use.  
 
-{% highlight python linenos%}
+```python
 from math import *
 from time import time
 import numpy as np
@@ -55,9 +59,9 @@ e4 = time()
 t4 = e4 - s4
 print(t4)
 #=> prints: 2.794750928878784 
-{% endhighlight %}
+```
 
-{% highlight python linenos%}
+```python
 from math import *
 import numpy as np
 import numexpr as ne
@@ -124,6 +128,5 @@ print(t2/t4)
 #=> prints: 2.8727261195611717
 print(t3/t4)
 #=> prints: 2.52051887619108
-{% endhighlight %}
-
+```
 [py4fin]: http://shop.oreilly.com/product/0636920032441.do 

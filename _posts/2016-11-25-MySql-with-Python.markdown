@@ -1,7 +1,11 @@
 ---
 layout: post
 title:  "MySql with Python"
+description: "Connecting with SQL database using python and storing tables in pandas dataframe"
 date:   2016-11-25 14:26:40 +0530
+tags: [PyMySql, Python, Pandas, Database]
+comments: true
+share: true
 ---
 Requirements are: PyMySql(for connection and interaction with database), pandas(importing data to data frame for analysis purpose) 
 

@@ -1,7 +1,11 @@
 ---
 layout: post
 title:  "XML to SQL"
+description: "loadig xml data into SQL table"
 date:   2016-12-03 12:26:40 +0530
+tags: [SQL, XML, Python, Database]
+comments: true
+share: true
 ---
 
 Create an SQL table based on your XML data.

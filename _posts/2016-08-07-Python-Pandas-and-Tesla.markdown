@@ -1,7 +1,11 @@
 ---
 layout: post
 title:  "Pandas, Finance and Tesla"
+description: "using pandas and matplotlib for basis financial analysis"
 date:   2016-04-02 16:12:40 +0530
+tags: [Pandas, Python, Numpy, Financial analysis]
+comments: true
+share: true
 ---
 A demonstration of Pandas' basic operations and its applications to financial analysis using Tesla's stock prices.
 

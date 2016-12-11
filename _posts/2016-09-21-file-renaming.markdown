@@ -1,7 +1,11 @@
 ---
 layout: post
 title:  "File Renaming"
+description: "python script to rename files"
 date:   2015-09-11 14:26:40 +0530
+tags: [File Handling, File Renaming, Utility, Python]
+comments: true
+share: true
 ---
 In almost all of the projects involving some kind of document handling/parsing, we get lots of files to deal with. 
 Usually these files have cumbersome, non-uniform names, hence renaming. In case of limited number of files say 10-15
