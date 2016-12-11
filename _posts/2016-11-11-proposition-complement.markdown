@@ -3,7 +3,7 @@ layout: post
 title:  "Axioms, Propositions and Proofs"
 description: "Brief description of a proof and its building blocks"
 date:   2016-11-11 22:43:32 +0530
-tags: [mathematics, proposition, logic]
+tags: [mathematics, logic]
 comments: true
 share: true
 ---
@@ -25,7 +25,7 @@ Hence the flow chart for proof mechanism:
 
 Axioms  \-\>  logical deductions  \-\>  various  \-\>  deduced  \-\>  propositions  \-\>  Proposition (final logical deduction)
 
-##### Truth Table for *implication*
+##### Truth Table for Implication
 
 **P**|**Q**|**P IMPLIES Q**
 -------|--------|-------
