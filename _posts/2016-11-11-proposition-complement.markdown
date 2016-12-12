@@ -42,5 +42,5 @@ So lets break the combined proposition into two separate propositions P and Q
 > If Pigs can fly (P).
 > You can solve Riemann Hypothesis (Q).
 
-Now the P part is *False*. We all know that pigs can't fly. Well, after looking at the truth table of Implication, it is evident that no matter what the status of Q is the implication is always true. 
-Hence you can solve **Riemann Hypothesis**, and that's a big compliment. :sunglasses:  
+Now the P part is *False*. We all know that pigs can't fly. Well, after looking at the truth table of Implication, it is evident that no matter what the status of Q is, the implication is always true. 
+Hence the proposition is true irrespective of whether you can solve the **Riemann Hypothesis** or not.  
