@@ -35,7 +35,7 @@ F      |F     |T
 #### Example:
 If Pigs can fly then you can solve **Riemann Hypothesis**
 
-At first it might sound like an *insult*. But breaking it into two propositions and applying simple implication truth table, It would sound like a *complement* (provided you what Riemann Hypothesis is)
+At first it might sound like an *insult*. But breaking it into two propositions and applying simple implication truth table, It would sound like a *complement* (provided you know what Riemann Hypothesis is)
 
 So lets break the combined proposition into two separate propositions P and Q
 
