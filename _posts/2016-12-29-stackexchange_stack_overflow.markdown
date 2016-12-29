@@ -37,4 +37,6 @@ Tags dataset has 3404 different tags for various posts of Stack Overflow. Each t
 38      |css   |6760
 139      |mysql    |6379
 
+
 ![1D Plot]({{ site.url }}/assets/images/stack_overflow_tags.png)
+
