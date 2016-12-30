@@ -4,7 +4,6 @@ permalink: /about/
 ---
 
 
-### CHORONZON AND MORPHEUS
 <p>
 <b>CHORONZON:</b>  &nbsp; "I am a dire wolf, prey-stalking, lethal prowler." <br>
 <b>MORPHEUS:</b> &nbsp; "I am a hunter, horse-mounted, wolf-stabbing." <br>
