@@ -19,15 +19,15 @@ Leaving magic-the-gathering outside since it's an outlier.
 
 **Id**|**TagName**|**Count**
 -------|--------|-------
-76      |bridge     |19985
-1      |house-rules     |16424
-0     |dominion     |15097
-517      |catan     |12744
-74      |identify-this-game    |10796
-36      |arkham-horror    |9050
-13      |go    |8395
-88      |game-design    |8382
-291      |android-netrunner   |6760
+76      |bridge     |275
+1      |house-rules     |211
+0     |dominion     |195
+517      |catan     |188
+74      |identify-this-game    |157
+36      |arkham-horror    |152
+13      |go    |137
+88      |game-design    |121
+291      |android-netrunner   |105
 
 
 ![1D Plot]({{ site.url }}/assets/images/board_games.png)
