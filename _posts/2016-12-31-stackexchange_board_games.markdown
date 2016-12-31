@@ -34,5 +34,8 @@ Leaving magic-the-gathering outside since it's an outlier.
 
 #### Top 5 posts based on Score
 * Obviously, <img src="http://i.stack.imgur.com/rmjEq.jpg" alt="alt text"> **(107)**
- 
-
+* There comes a time in every Dominion group's life where they figure out that Big Money (the strategy you describe) is beating everyone else who is going heavy on action cards. Do not fret - it's most often not actually the best strategy. **(93)**
+* Our group has determined that buying (almost exclusively) money and points is the way to go.</p>&#xA;&#xA;<p>Most kingdom cards are ignored, or are bought very sparingly. This has lead to games feeling 'samey' and has taken a lot of the fun out for us. **(91)**
+* My wife loves board games, but dislikes very competitive games, and is completely uninterested in aggressive "beat up the other guy" games. We recently discovered <a href="http://boardgamegeek.com/boardgame/30549/pandemic">Pandemic</a>, where each play **(89)**
+* I like the following rule:</p>&#xA;&#xA;<blockquote>&#xA;  <p>If no new information has been disclosed since a decision, then a player is allowed to take back any action or inaction where this is practical.</p>&#xA;</blockquote>&#xA;&#xA;<p>Information **(75)**
+* Yes, they would still gain $200 from passing GO <em>then</em> landing on a square that makes them draw a card like this.</p>&#xA;&#xA;<p>You collect $200 immediately when you land on or pass GO, then the player would continue their move and land on Chan **(71)**
