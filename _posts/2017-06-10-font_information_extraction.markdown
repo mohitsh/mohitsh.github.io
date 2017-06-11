@@ -2,7 +2,7 @@
 layout: post
 title:  "Font Information From ttf File"
 description: "Using Python-Pillow's Image Font Module to Extract Font Information (font-name, size, offset, mask)"
-date:   2016-11-06 10:42:02 +0530
+date:   2017-06-11 10:42:02 +0530
 tags: [Pillow, Python, Font, ttf]
 comments: true
 share: true
